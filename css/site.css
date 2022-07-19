@@ -1,0 +1,130 @@
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, arial, sans-serif;
+    background: black;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    height: 2px;
+    width: 31px;
+    background: #ffffff;
+    margin: 8px;
+}
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 92vh;
+    background-size: cover;
+
+}
+
+main {
+    background-color: rgb(2, 0, 36);
+    border-radius: 60px;
+    box-shadow: 20px 36px 72px #ffffff,
+        -36px -36px 72px #ffffff;
+    padding: 10px 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.title1 {
+    font-family: 'Sen', sans-serif;
+    color: rgb(0, 140, 255);
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+h5 {
+    color: rgb(0, 238, 255);
+    font-size: 35px;
+    margin-left: 10px;
+    text-align: left;
+    line-height: 1.5em;
+
+
+}
+
+p {
+    color: rgb(255, 255, 255);
+
+    font-size: 25px;
+    text-indent: 20px;
+    text-align: left;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 140, 255);
+    border-radius: 30px;
+}
+
+h6 {
+    color: rgb(0, 238, 255);
+    font-size: 28px;
+}
+
+.imagem1 {
+    width: 300px;
+    height: 250px;
+    border: 9px;
+    border-style: double;
+    border-color: rgb(0, 238, 255);
+    border-radius: 30px;
+    text-align: left;
+}
